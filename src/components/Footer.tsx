@@ -1,8 +1,6 @@
 import { Instagram, Mail, Phone, MapPin } from "lucide-react";
 import izabelaLogo from "@/assets/izabela-logo-white.png";
 import dornelasLogo from "@/assets/dornelas-logo.png";
-import toctusLogo from "@/assets/toctus-logo.png";
-import brandLogo from "@/assets/brand-logo-1.png";
 
 export const Footer = () => {
   return (
@@ -60,16 +58,14 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Partners */}
+          {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4">Marcas Parceiras</h4>
-            <div className="flex flex-wrap gap-4 items-center">
-              <img src={toctusLogo} alt="Toctus" className="h-8 opacity-80 hover:opacity-100 transition-opacity" />
-              <img src={brandLogo} alt="Parceiro" className="h-8 opacity-80 hover:opacity-100 transition-opacity" />
+            <h4 className="font-semibold mb-4">Links Rápidos</h4>
+            <div className="space-y-2 text-sm">
+              <a href="/produtos" className="block hover:text-secondary transition-colors">Produtos</a>
+              <a href="/sobre" className="block hover:text-secondary transition-colors">Sobre</a>
+              <a href="/depoimentos" className="block hover:text-secondary transition-colors">Depoimentos</a>
             </div>
-            <p className="text-xs text-primary-foreground/60 mt-4">
-              Produtos oficiais com garantia de procedência
-            </p>
           </div>
         </div>
 
