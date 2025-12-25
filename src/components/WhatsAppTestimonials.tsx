@@ -32,7 +32,7 @@ export const WhatsAppTestimonials = () => {
         },
         {
           sender: "client" as const,
-          audioUrl: "/audios/depoimento-maria.ogg",
+          audioUrl: `${import.meta.env.BASE_URL}audios/depoimento-maria.ogg`,
           audioDuration: "0:17",
           time: "14:27",
         },
@@ -88,7 +88,7 @@ export const WhatsAppTestimonials = () => {
         },
         {
           sender: "client" as const,
-          audioUrl: "/audios/depoimento-juliana.ogg",
+          audioUrl: `${import.meta.env.BASE_URL}audios/depoimento-juliana.ogg`,
           audioDuration: "0:22",
           time: "16:46",
         },

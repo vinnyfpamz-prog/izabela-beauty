@@ -1,4 +1,5 @@
 import { Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 import izabelaLogo from "@/assets/izabela-logo-white.png";
 import dornelasLogo from "@/assets/dornelas-logo.png";
 
@@ -62,9 +63,9 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Links Rápidos</h4>
             <div className="space-y-2 text-sm">
-              <a href="/produtos" className="block hover:text-secondary transition-colors">Produtos</a>
-              <a href="/sobre" className="block hover:text-secondary transition-colors">Sobre</a>
-              <a href="/depoimentos" className="block hover:text-secondary transition-colors">Depoimentos</a>
+              <Link to="/produtos" className="block hover:text-secondary transition-colors">Produtos</Link>
+              <Link to="/sobre" className="block hover:text-secondary transition-colors">Sobre</Link>
+              <Link to="/depoimentos" className="block hover:text-secondary transition-colors">Depoimentos</Link>
             </div>
           </div>
         </div>
